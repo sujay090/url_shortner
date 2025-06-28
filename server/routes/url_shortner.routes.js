@@ -1,9 +1,8 @@
-import express from "express"
-import { nanoid } from "nanoid";
+import express from "express";
 import { createShortUrl } from "../controllers/shortUrl.controller.js";
 
-const router = express.Router()
+const router = express.Router();
 
-router.post("/create-url",createShortUrl)
+router.post("/create-url", createShortUrl);
 
-export default router
+export default router;
